@@ -37,4 +37,5 @@ dependencies {
     compile project(':commonsLib')
     apt 'com.bluelinelabs:logansquare-compiler:1.1.0'
     compile 'com.bluelinelabs:logansquare:1.1.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
 }

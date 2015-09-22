@@ -24,7 +24,7 @@ public class BasePreferenceUtil {
     protected static Map<String, Object> preferenceMap = new HashMap<>();
 
     static {
-        preferences = PreferenceManager.getDefaultSharedPreferences(CommonsCore.context);
+        preferences = PreferenceManager.getDefaultSharedPreferences(CommonsCore.getContext());
     }
 
 
@@ -115,11 +115,6 @@ public class BasePreferenceUtil {
         }
         return (FloatPreference) preferenceMap.get(key);
     }
-
-
-
-
-
 
 
 }
