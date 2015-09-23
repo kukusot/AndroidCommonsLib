@@ -59,6 +59,8 @@ public abstract class HttpRequest<T> {
     }
 
 
+
+
     private TextHttpResponseHandler responseHandler = new TextHttpResponseHandler() {
         @Override
         public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
